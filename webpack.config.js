@@ -78,6 +78,7 @@ module.exports = (_, argv) => {
       static: {
         directory: "dist/",
       },
+      port: 3000,
       hot: true,
       historyApiFallback: true,
     },
